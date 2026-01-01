@@ -20,3 +20,55 @@ The system provides a scalable, interactive map interface that tracks live drone
 
 The platform consists of a Python backend responsible for telemetry streaming and a React-based frontend for visualisation and control.
 
+
+Mission waypoints are defined in North-East-Down (NED) coordinates and rendered onto a 2D map.  
+Live drone positions are streamed from the backend and rendered in real time on the frontend.
+
+---
+
+## Map and Visualisation
+
+- Mission markers are generated from NED coordinates using Python and Matplotlib
+- The map supports constrained zooming and panning to prevent invalid view states
+- Drone icons are rendered dynamically and update position in real time
+- When a drone is selected, the viewport follows the drone to keep it centered during flight
+
+📷 **Screenshot:** Map view with multiple drones and mission markers
+
+---
+
+## Drone Interaction
+
+- Each drone icon is selectable
+- Selecting a drone:
+  - Highlights the drone visually
+  - Locks the viewport to follow its movement
+  - Enables control via the adjacent control panel
+- Drone icon colour reflects current flight status (e.g. idle, active, error)
+
+📷 **Screenshot:** Selected drone with control panel active
+
+---
+
+## Tech Stack
+
+### Backend
+- Python
+- WebSockets
+- Real-time telemetry streaming
+
+### Frontend
+- React (TypeScript / TSX)
+- Tailwind CSS
+- SVG / Canvas-based rendering
+
+---
+
+## Design Considerations
+
+- Optimised for desktop and large displays
+- Scalable with viewport dimensions
+- Not intended for small-screen or mobile use
+- Designed for operator situational awareness and control stability
+
+---
