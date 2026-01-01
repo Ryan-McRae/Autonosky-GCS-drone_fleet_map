@@ -32,8 +32,8 @@ Live drone positions are streamed from the backend and rendered in real time on 
 - The map supports constrained zooming and panning to prevent invalid view states
 - Drone icons are rendered dynamically and update position in real time
 - When a drone is selected, the viewport follows the drone to keep it centered during flight
-
-📷 **Screenshot:** Map view with multiple drones and mission markers
+  
+https://github.com/Ryan-McRae/Autonosky-GCS-drone_fleet_map/tree/main/Autonosky-fleetmanager/Overall.mp4
 
 ---
 
@@ -46,7 +46,8 @@ Live drone positions are streamed from the backend and rendered in real time on 
   - Enables control via the adjacent control panel
 - Drone icon colour reflects current flight status (e.g. idle, active, error)
 
-📷 **Screenshot:** Selected drone with control panel active
+https://github.com/Ryan-McRae/Autonosky-GCS-drone_fleet_map/tree/main/Autonosky-fleetmanager/autopan.mp4
+https://github.com/Ryan-McRae/Autonosky-GCS-drone_fleet_map/tree/main/Autonosky-fleetmanager/autofollow.mp4
 
 ---
 
