@@ -20,7 +20,6 @@ The system provides a scalable, interactive map interface that tracks live drone
 
 The platform consists of a Python backend responsible for telemetry streaming and a React-based frontend for visualisation and control.
 
-
 Mission waypoints are defined in North-East-Down (NED) coordinates and rendered onto a 2D map.  
 Live drone positions are streamed from the backend and rendered in real time on the frontend.
 
@@ -32,8 +31,10 @@ Live drone positions are streamed from the backend and rendered in real time on 
 - The map supports constrained zooming and panning to prevent invalid view states
 - Drone icons are rendered dynamically and update position in real time
 - When a drone is selected, the viewport follows the drone to keep it centered during flight
-  
-https://github.com/Ryan-McRae/Autonosky-GCS-drone_fleet_map/tree/main/Autonosky-fleetmanager/OverallG.mp4
+
+<p align="center">
+  <video src="https://raw.githubusercontent.com/Ryan-McRae/Autonosky-GCS-drone_fleet_map/main/Autonosky-fleetmanager/OverallG.mp4" controls width="700"></video>
+</p>
 
 ---
 
@@ -46,8 +47,13 @@ https://github.com/Ryan-McRae/Autonosky-GCS-drone_fleet_map/tree/main/Autonosky-
   - Enables control via the adjacent control panel
 - Drone icon colour reflects current flight status (e.g. idle, active, error)
 
-https://github.com/Ryan-McRae/Autonosky-GCS-drone_fleet_map/tree/main/Autonosky-fleetmanager/autopanG.mp4
-https://github.com/Ryan-McRae/Autonosky-GCS-drone_fleet_map/tree/main/Autonosky-fleetmanager/autofollowG.mp4
+<p align="center">
+  <video src="https://raw.githubusercontent.com/Ryan-McRae/Autonosky-GCS-drone_fleet_map/main/Autonosky-fleetmanager/autopanG.mp4" controls width="700"></video>
+</p>
+
+<p align="center">
+  <video src="https://raw.githubusercontent.com/Ryan-McRae/Autonosky-GCS-drone_fleet_map/main/Autonosky-fleetmanager/autofollowG.mp4" controls width="700"></video>
+</p>
 
 ---
 
@@ -71,5 +77,3 @@ https://github.com/Ryan-McRae/Autonosky-GCS-drone_fleet_map/tree/main/Autonosky-
 - Scalable with viewport dimensions
 - Not intended for small-screen or mobile use
 - Designed for operator situational awareness and control stability
-
----
